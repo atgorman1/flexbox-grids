@@ -96,16 +96,9 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: lemonchiffon;
+  background-color: #fcd6da;
   height: 100%;
   width: 100%;
-}
-
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  color: darkolivegreen;
 }
 
 header {
@@ -116,21 +109,27 @@ header {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  color: rgb(50, 63, 28);
+  color: #994249;
+  padding-bottom: 0.8em;
 }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 2em;
+  font-size: 1.25em;
+  color: #57785f;
+}
+
 main {
   font-size: 1.5em;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  justify-content: flex-start;
   width: 100%;
-}
-
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 1.7em;
+  border-top: 3px solid #e37881;
+  border-bottom: 3px solid #e37881;
 }
 
 #flex-container {
@@ -141,7 +140,7 @@ footer {
 }
 
 .flex-items {
-  color: rgb(121, 55, 137);
+  color: #57785f;
   line-height: 1.5em;
   font-size: 1.3em;
   display: flex;
@@ -150,9 +149,26 @@ footer {
   align-items: top;
   text-align: left;
   padding: 0.7em;
-  height: 300px;
+  margin: 1.5em 0;
+  height: auto;
 }
 
+#div-2 {
+  border-left: 3px solid #bdd9c3;
+  border-right: 3px solid #bdd9c3;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid #e37881;
+  margin-top: 1.4em;
+}
+footer img {
+  padding: 1em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
